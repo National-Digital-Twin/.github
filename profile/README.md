@@ -24,10 +24,11 @@ These applications illustrate how NDTP technologies can be used to solve real-wo
 
 - **IRIS** – A demonstrator supporting energy-efficiency decision-making for homes
 - **LISA** – A multi-agency incident management and coordination tool
+- **NOVA** - An early-stage geospatial solution designed to model and optimise the integration of renewable energy generation and storage
 
 The following demonstrators are currently under development and will be released in future phases:
 
-- **NOVA**, **SALUS**, and **VISTA** – Covering renewable energy generation, vulnerable persons support, and emergency planning and response (expected Q4 2025–2026)
+- **SALUS**, and **VISTA** – Covering renewable energy generation, vulnerable persons support, and emergency planning and response (expected Q4 2025–2026)
 
 ## Contributing
 
