@@ -54,7 +54,6 @@ The consolidated list of organisations is provided below in alphabetical order:
 - Kampakis & Co. Ltd
 - Ove Arup & Partners
 - Radical IT
-- SiXworks Ltd
 - Telicent
 
 ---
