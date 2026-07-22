@@ -1,42 +1,40 @@
-# National Digital Twin Programme on GitHub
+# National Digital Twin Applications on GitHub
 
-This GitHub organisation hosts the open-source assets developed by the **National Digital Twin Programme (NDTP)**. Our repositories contain code, tools, and documentation that enable the secure and interoperable sharing of information between digital systems and organisations.
+Welcome to the GitHub organisation for the **National Digital Twin (NDT) Applications**.
 
-These assets are designed to support developers, integrators, and collaborators working with the foundational components of the UK’s future National Digital Twin ecosystem. These repositories provide practical implementations of our data-sharing architecture, demonstrator applications, and supporting libraries to accelerate adoption and development.
+This organisation hosts the open-source applications developed by the **National Digital Twin Programme (NDTP)**, a high Technology Readiness Level (TRL) research and development programme within the **Department for Business, Innovation, Science and Trade (BIST)**. These applications, also referred to as *demonstrators*, showcase how National Digital Twin technologies can be applied to solve real-world challenges across sectors, bridging the gap between research, innovation and operational deployment.
 
----
+Alongside application source code, you will also find supporting documentation, tools and libraries that enable developers, partners and collaborators to build, evaluate and extend these applications.
 
-## Key Repositories
+## National Digital Twin Applications
 
-### Integration Architecture (IA)
+Our open-source applications demonstrate practical uses of National Digital Twin capabilities through a range of operational and research scenarios.
 
-The Integration Architecture is a federated framework that enables trusted data exchange between organisations. Each participant runs an IA Node, and nodes can share structured data securely under common governance principles.
+### Current NDT Applications
 
-We provide:
+- **IRIS** – Originally developed to support domestic retrofit programmes, particularly **ECO4**, IRIS is evolving into a broader platform to support delivery of the UK's **Warm Homes Plan**. Its development roadmap focuses on integrating property and occupant data—including, where appropriate, information such as DWP benefits data—to provide a richer understanding of homes and their residents, while improving interoperability with local authorities and partner organisations involved in housing and retrofit delivery.
 
-- The core IA Node reference implementation
-- Deployment templates and Helm charts for cloud-native environments
-- Documentation for implementation, integration, and extension
+- **VISTA** – A platform for data-driven emergency planning and situational awareness that brings together multiple data sources to help planners and responders understand asset criticality, assess potential impacts and support informed decision-making before and during incidents.
 
-### Demonstrator Applications
+- **LISA** – A multi-agency coordination platform designed to improve information sharing and operational collaboration during complex incidents, helping organisations respond more effectively to emergencies such as major fires, pandemics and other civil contingencies.
 
-These applications illustrate how NDTP technologies can be used to solve real-world problems using data.
+- **NOVA** – A geospatial decision-support platform that enables users to explore the feasibility of infrastructure and development scenarios through interactive mapping. While initially developed for renewable energy generation and storage, its flexible design supports a wide range of planning and investment use cases.
 
-- **IRIS** – A demonstrator supporting energy-efficiency decision-making for homes
-- **LISA** – A multi-agency incident management and coordination tool
+As additional applications are open sourced, they will be published through this organisation.
 
-The following demonstrators are currently under development and will be released in future phases:
+> **Note:** The source code for these applications is open source; however, the operational data used to power them is not. Government organisations deploying these applications are expected to access data under their existing licensing arrangements (for example, Ordnance Survey data licensed through their own agreements). Organisations or individuals outside government are responsible for sourcing and integrating equivalent datasets appropriate to their own use case. This approach ensures the applications remain open, reusable and adaptable while respecting the licensing and governance requirements associated with the underlying data.
 
-- **NOVA**, **SALUS**, and **VISTA** – Covering renewable energy generation, vulnerable persons support, and emergency planning and response (expected Q4 2025–2026)
 
-## Contributing
+## Looking for Nodes, Node Nets or the National Node Net?
 
-We welcome community engagement via issues and discussion. While direct code contributions are limited to approved delivery partners at this stage, your feedback helps shape ongoing development.
+The **National Node Net** is data sharing infrastructure public code managed by the **National Digital Twin Programme**, and designed to support and enable data sharing ambitions in the UK across government, industry, academia and the wider open source community.
 
-If you’d like to get involved, please refer to the contributing guidance within our [archetypes repository](https://github.com/National-Digital-Twin/archetypes/blob/main/CONTRIBUTING.md).
+The reference implementations, deployment tooling and documentation for **Nodes**, **Node Nets** and the **National Node Net** are maintained in the dedicated **National Node Net** GitHub organisation.
 
----
+If you are interested in deploying or contributing to the National Node Net, exploring the reference architecture, or collaborating on the underlying infrastructure, visit:
+
+[National Node Net GitHub Organisation](https://github.com/National-Node-Net)
 
 ## Licensing
 
-All code is released under the Apache License 2.0. Documentation and content are published under the Open Government Licence v3.0.
+Unless otherwise stated, source code is released under the **Apache License 2.0**. Documentation and other content are published under the **Open Government Licence v3.0**.
